@@ -5,8 +5,6 @@
 ![Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Pro-orange.svg)
 ![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-lightgrey.svg)
 
-> **[📹 View the 60-Second Video Demo Here]** *(Link your video)*
-
 **M.U.R.P.H.** (Management Utility for Records, Policies, and History) is a standalone desktop application designed to act as an internal corporate brain. It allows users to securely upload proprietary documents, process them into a cloud vector database, and query them in real-time using a conversational AI interface. 
 
 By utilizing a strict Retrieval-Augmented Generation (RAG) pipeline, M.U.R.P.H. eliminates LLM hallucinations by forcing the AI to cite directly from the uploaded company data.
