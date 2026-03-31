@@ -1,4 +1,4 @@
-# 🚀 M.U.R.P.H. | Enterprise RAG Desktop Assistant
+# 🚀 M.U.R.P.H. | Enterprise Desktop Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-Enabled-green.svg)
