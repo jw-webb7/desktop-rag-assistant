@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
+# 1. Normalize line endings for all text files to ensure cross-OS compatibility
 * text=auto
+
+# 2. Force specific file types to retain standard line endings
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+# 3. Tell GitHub Linguist to ignore mock data or documents in the language stats
+*.pdf linguist-generated=true
+*.json linguist-generated=true
+*.csv linguist-generated=true
+
+# 4. Treat these specific files as binary (do not try to show text differences in commits)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
