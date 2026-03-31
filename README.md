@@ -77,7 +77,7 @@ murph-desktop-rag-assistant/
 ├── credentials/
 │   ├── api_key.txt
 │   └── client_secret.json
-├── main.py
+├── desktop-rag-assistant.exe
 └── ...
 ```
 
