@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+*.pdf linguist-generated=true
+*.json linguist-generated=true
+*.csv linguist-generated=true
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
