@@ -4,6 +4,7 @@
 ![LangChain](https://img.shields.io/badge/LangChain-Enabled-green.svg)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Pro-orange.svg)
 ![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-lightgrey.svg)
+[![Demo Video](https://img.youtube.com/vi/uXFhUWmcCrY/maxresdefault.jpg)](https://www.youtube.com/watch?v=uXFhUWmcCrY)
 
 This app is a standalone desktop application designed to act as an internal corporate brain. It allows users to securely upload proprietary documents, process them into a cloud vector database, and query them in real-time using a conversational AI interface. 
 
