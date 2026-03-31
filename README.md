@@ -1,13 +1,13 @@
-# 🚀 M.U.R.P.H. | Enterprise Desktop Assistant
+# Enterprise Desktop RAG Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-Enabled-green.svg)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Pro-orange.svg)
 ![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-lightgrey.svg)
 
-**M.U.R.P.H.** (Management Utility for Records, Policies, and History) is a standalone desktop application designed to act as an internal corporate brain. It allows users to securely upload proprietary documents, process them into a cloud vector database, and query them in real-time using a conversational AI interface. 
+This app is a standalone desktop application designed to act as an internal corporate brain. It allows users to securely upload proprietary documents, process them into a cloud vector database, and query them in real-time using a conversational AI interface. 
 
-By utilizing a strict Retrieval-Augmented Generation (RAG) pipeline, M.U.R.P.H. eliminates LLM hallucinations by forcing the AI to cite directly from the uploaded company data.
+By utilizing a strict Retrieval-Augmented Generation (RAG) pipeline, this model eliminates LLM hallucinations by forcing the AI to cite directly from the uploaded company data.
 
 ---
 
@@ -23,7 +23,7 @@ By utilizing a strict Retrieval-Augmented Generation (RAG) pipeline, M.U.R.P.H. 
 
 ## 🧠 System Architecture
 
-M.U.R.P.H. operates on a dual-highway architecture to separate document ingestion from AI querying:
+The application operates on a dual-highway architecture to separate document ingestion from AI querying:
 
 1. **The Ingestion Pipeline:** `PDF Upload` ➔ `PyMuPDF Shredder` ➔ `Google Gemini Embeddings (768d)` ➔ `Pinecone Index`
 2. **The Query Pipeline:** `User Question` ➔ `Context Retrieval` ➔ `LangChain Prompt Injection` ➔ `Gemini 2.5 Pro` ➔ `UI Render`
@@ -42,8 +42,8 @@ M.U.R.P.H. operates on a dual-highway architecture to separate document ingestio
 ### 1. Clone & Install
 
 ```bash
-git clone [https://github.com/yourusername/murph-desktop-rag-assistant.git](https://github.com/yourusername/murph-desktop-rag-assistant.git)
-cd murph-desktop-rag-assistant
+git clone [https://github.com/jw-webb7/desktop-rag-assistant.git](https://github.com/jw-webb7/desktop-rag-assistant.git)
+cd desktop-rag-assistant
 pip install -r requirements.txt
 ```
 
@@ -69,7 +69,7 @@ To enable the document upload pipeline, you must authorize the application to st
 Copy your entire `credentials/` folder and paste a duplicate of it directly inside the `_internal/` directory (create the `_internal` folder in the root directory if it does not already exist). Your folder structure should look like this:
 
 ```text
-murph-desktop-rag-assistant/
+desktop-rag-assistant/
 ├── _internal/
 │   └── credentials/ 
 │       ├── api_key.txt
